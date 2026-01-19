@@ -1,9 +1,22 @@
 import Image from "next/image";
 
+import clsx from "clsx";
+
+import { roboto400, roboto700 } from "@/fonts/fonts";
+
 export default function Home() {
+    const hasError = true;
+
   return (
     <div className="flex min-h-screen items-center justify-center font-sans bg-blue-500">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
+      <main className={clsx(
+          `${roboto700.className} flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 sm:items-start`,
+          {
+            "dark:bg-red-500 bg-red-500 roboto700": hasError,
+            "dark:bg-black bg-black roboto400": !hasError,
+          }
+        )}
+        >
         <Image
           className="dark:invert"
           src="/next.svg"
