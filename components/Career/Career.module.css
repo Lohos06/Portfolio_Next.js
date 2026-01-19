@@ -1,0 +1,23 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.h2 {
+    font-size: 2rem;
+}
+
+.h3 {
+    font-size: 1.5rem;
+}
+
+.category {
+    display: flex;
+    gap: 2rem;
+}
+
+.logos {
+    display: flex;
+    flex-direction: column;
+}
