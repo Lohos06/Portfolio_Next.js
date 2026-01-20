@@ -1,16 +1,31 @@
 import styles from "./Career.module.css";
 
+import Image from "next/image";
+
+import JeanPerrinLogo from "@/public/Logos/JeanPerrinLogo.png";
+import IIMLogo from "@/public/Logos/IIMLogo.png";
+import CYLogo from "@/public/Logos/CYLogo.png";
+import JazzInMarciacLogo from "@/public/Logos/JazzInMarciacLogo.png";
+
 export default function Career() {
     return (
         <section className={`${styles.section}`}>
-            <div>
-                <h2 className={`${styles.h2}`}>Formation</h2>
+            <div className={`${styles.formation}`}>
+                <h2 className={`${styles.h2}`}>Formations</h2>
                 <div className={`${styles.category}`}>
                     <div className={`${styles.logos}`}>
-                        <span>Logo</span>
-                        <span>Logo</span>
+                        <Image
+                            src={JeanPerrinLogo}
+                            alt="Logo Lycée Jean Perrin"
+                            className="w-full h-auto object-cover rounded-xl"
+                        />
+                        <Image
+                            src={IIMLogo}
+                            alt="Logo IIM Digital School"
+                            className="w-full h-auto object-cover rounded-xl"
+                        />
                     </div>
-                    <div>
+                    <div className={`${styles.description}`}>
                         <div>
                             <p>06/23</p>
                             <h3 className={`${styles.h3}`}>Baccalauréat | Lycée Jean Perrin</h3>
@@ -26,15 +41,27 @@ export default function Career() {
                 </div>
             </div>
 
-            <div>
+            <div className={`${styles.experience}`}>
                 <h2 className={`${styles.h2}`}>Experiences</h2>
                 <div className={`${styles.category}`}>
                     <div className={`${styles.logos}`}>
-                        <span>Logo</span>
-                        <span>Logo</span>
-                        <span>Logo</span>
+                        <Image
+                            src={JazzInMarciacLogo}
+                            alt="Logo Jazz In Marciac"
+                            className="w-full h-auto object-cover rounded-xl"
+                        />
+                        <Image
+                            src={CYLogo}
+                            alt="Logo Université"
+                            className="w-full h-auto object-cover rounded-xl"
+                        />
+                        <Image
+                            src={CYLogo}
+                            alt="Liam Studio"
+                            className="w-full h-auto object-cover rounded-xl"
+                        />
                     </div>
-                    <div>
+                    <div className={`${styles.description}`}>
                         <div>
                             <p>03/25 - 05/25  | 3 mois</p>
                             <h3 className={`${styles.h3}`}>Développeur Web | Jazz In Marciac</h3>

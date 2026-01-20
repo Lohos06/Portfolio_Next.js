@@ -9,7 +9,7 @@ export default function Project4() {
         <div className={`${styles.project}`}>
             <Image
                 src={LiamStudio}
-                alt="Image Site Jazz In Marciac"
+                alt="Image Site Liam Studio"
                 className="w-5/8 h-auto object-cover rounded-xl"
             />
             <div className={`${styles.projectDescription}`}>

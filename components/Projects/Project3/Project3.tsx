@@ -18,7 +18,7 @@ export default function Project3() {
             </div>
             <Image
                 src={PokemonTradingCenter}
-                alt="Image Site Jazz In Marciac"
+                alt="Image Site Pokemon Trading Center"
                 className="w-5/8 h-auto object-cover rounded-xl"
             />
         </div>

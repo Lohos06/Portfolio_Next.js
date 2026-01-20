@@ -2,13 +2,29 @@
     min-height: 20vh;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding: 3rem;
 
-    background-color: rgb(139, 139, 212);
+    background-color: rgb(255, 94, 0);
 }
 
-.h1 {
+.h1{
     font-size: 3rem;
-    color: black;
+    color: var(--black);
+}
+
+.nav {
+    display: flex;
+    gap: 2rem;
+}
+
+.link {
+    font-size: 2rem;
+    color: var(--black);
+}
+
+.link:hover {
+    font-size: 2rem;
+    color: rgb(216, 216, 216);
 }
