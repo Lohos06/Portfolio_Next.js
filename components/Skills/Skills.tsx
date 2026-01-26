@@ -7,7 +7,7 @@ export default function Skills() {
                 <h2 className={`${styles.h2}`}>Hard Skills</h2>
                 <ul>
                     <li>HTML, CSS</li>
-                    <li>JavaScript</li>
+                    <li>JavaScript, Next</li>
                     <li>PHP, SQL</li>
                     <li>Git et GitHub</li>
                     <li>Python</li>
