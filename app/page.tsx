@@ -1,7 +1,8 @@
 import Header from "@/components/Header/Header";
 
 import Skills from "@/components/Skills/Skills";
-import Career from "@/components/Career/Career";
+import Experiences from "@/components/Experiences/Experiences";
+import Formations from "@/components/Formations/Formations";
 import Projects from "@/components/Projects/Projects";
 
 export default function Home() {
@@ -10,8 +11,11 @@ export default function Home() {
       <Header></Header>
       <main className="min-h-screen w-full flex flex-col items-center p-10 gap-10">
           <div className="w-3/4 flex justify-between">
-            <Skills></Skills>
-            <Career></Career>
+            <div className="flex flex-col gap-5">
+              <Skills></Skills>
+              <Formations></Formations>
+            </div>            
+            <Experiences></Experiences>
           </div>
           <div className="w-full flex flex-col items-center">
             <Projects></Projects>
