@@ -5,7 +5,7 @@
   --bg-card: #1e293b;      
 
   --text-main: #f8fafc;    
-  --text-muted: #94a3b8;   
+  --text-muted: #aabbd2;
 
   --accent-main: #f97316;  
   --accent-hover: #fb923c;
@@ -20,6 +20,9 @@ section {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  padding: 2rem;
+  background-color: var(--bg-card);
+  border-radius: 1rem;
 }
 
 h1{
@@ -33,4 +36,8 @@ h2 {
 
 h3 {
   font-size: 1.5rem;
+}
+
+p, ul, li option {
+  color: var(--text-muted);
 }

@@ -23,7 +23,7 @@
 }
 
 .input {
-    background-color: white;
+    background-color: var(--bg-card);
     padding: 1rem;
     border-radius: 1rem;
 }
@@ -33,7 +33,7 @@
 }
 
 .submit {
-    background-color: red;
+    background-color: var(--accent-main);
     padding: 1rem;
     border-radius: 1rem;
     align-self: center;
@@ -42,10 +42,10 @@
 }
 
 .submit:hover {
-    background-color: rgb(255, 94, 0);
+    background-color: var(--accent-hover);
 }
 
 .submitMessage {
     font-size: x-large;
-    color: rgb(0, 159, 0);
+    color: var(--accent-main);
 }

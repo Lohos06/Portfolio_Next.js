@@ -10,8 +10,8 @@ export default function Home() {
     <div className="min-h-screen flex flex-col items-center justify-center">
       <Header></Header>
       <main className="min-h-screen w-full flex flex-col items-center p-10 gap-10">
-          <div className="w-3/4 flex justify-between">
-            <div className="flex flex-col gap-5">
+          <div className="w-3/4 flex justify-between gap-6">
+            <div className="flex flex-col justify-between gap-6">
               <Skills></Skills>
               <Formations></Formations>
             </div>            

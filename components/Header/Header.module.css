@@ -6,7 +6,11 @@
     align-items: center;
     padding: 3rem;
 
-    background-color: var(--bg-card);
+    background: linear-gradient(
+        to right,
+        var(--bg-main),
+        var(--bg-card)
+    );
 
 }
 
