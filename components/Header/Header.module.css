@@ -6,12 +6,8 @@
     align-items: center;
     padding: 3rem;
 
-    background-color: rgb(255, 94, 0);
-}
+    background-color: var(--bg-card);
 
-.h1{
-    font-size: 3rem;
-    color: var(--black);
 }
 
 .nav {
@@ -21,10 +17,10 @@
 
 .link {
     font-size: 2rem;
-    color: var(--black);
+    color: var(--accent-main);
 }
 
 .link:hover {
     font-size: 2rem;
-    color: rgb(216, 216, 216);
+    color: var(--accent-hover);
 }

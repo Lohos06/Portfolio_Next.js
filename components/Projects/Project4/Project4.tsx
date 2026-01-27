@@ -13,7 +13,7 @@ export default function Project4() {
                 className="w-5/8 h-auto object-cover rounded-xl"
             />
             <div className={`${styles.projectDescription}`}>
-                <h3 className={`${styles.h3}`}>Liam Studio</h3>
+                <h3>Liam Studio</h3>
                 <p>
                     Liam Studio est un site web de presentation des courts metrage d'un jeune studio d'animation.
                     Il y a une presentation de qui ils sont, les animations les plus populaires du studio tel que Before The Storm

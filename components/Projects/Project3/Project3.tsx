@@ -8,7 +8,7 @@ export default function Project3() {
     return (
         <div className={`${styles.project}`}>
             <div className={`${styles.projectDescription}`}>
-                <h3 className={`${styles.h3}`}>Pokemon Trading Center</h3>
+                <h3>Pokemon Trading Center</h3>
                 <p>
                     Pokemon Trading Center est un projet personnel avec pour fonction 
                     la collection et l'échange de cartes Pokemons. 

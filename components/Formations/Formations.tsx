@@ -7,8 +7,8 @@ import IIMLogo from "@/public/Logos/IIMLogo.png";
 
 export default function Formations() {
     return (           
-            <section className={`${styles.formations}`}>
-                <h2 className={`${styles.h2}`}>Formations</h2>
+            <section>
+                <h2>Formations</h2>
                 <div className={`${styles.category}`}>
                     <div className={`${styles.logos}`}>
                         <Image
@@ -25,13 +25,13 @@ export default function Formations() {
                     <div className={`${styles.description}`}>
                         <div>
                             <p>06/23</p>
-                            <h3 className={`${styles.h3}`}>Baccalauréat | Lycée Jean Perrin</h3>
+                            <h3>Baccalauréat | Lycée Jean Perrin</h3>
                             <p>Mention Bien</p>
                             <p>Spécialités Mathématiques et SVT</p>
                         </div>
                         <div>
                             <p>07/24 - 05/27 |3 ans</p>
-                            <h3 className={`${styles.h3}`}>Bachelor chef de projet digital| IIM Digital School</h3>
+                            <h3>Bachelor chef de projet digital| IIM Digital School</h3>
                             <p>Spécialité Coding et Digital Innovation</p>
                         </div>
                     </div>

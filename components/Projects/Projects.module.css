@@ -1,19 +1,7 @@
-.section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 4rem;
-}
-
 .Projects {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10rem;
-}
-
-.h2 {
-    font-size: 2rem;
 }

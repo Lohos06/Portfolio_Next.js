@@ -3,10 +3,10 @@ import styles from "./Skills.module.css";
 export default function Skills() {
     return (
         <section className={`${styles.section}`}>
-            <h2 className={`${styles.h2}`}>Competences</h2>
+            <h2>Competences</h2>
             <div className={`${styles.Skills}`}>
                 <div>
-                    <h3 className={`${styles.h3}`}>Hard Skills</h3>
+                    <h3>Hard Skills</h3>
                     <ul>
                         <li>HTML, CSS</li>
                         <li>JavaScript, Next</li>
@@ -18,7 +18,7 @@ export default function Skills() {
                     </ul>
                 </div>
                 <div>
-                    <h3 className={`${styles.h3}`}>Soft Skills</h3>
+                    <h3>Soft Skills</h3>
                     <ul>
                         <li>Organisation</li>
                         <li>Coopération</li>

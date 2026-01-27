@@ -8,7 +8,7 @@ export default function Project1() {
     return (
         <div className={`${styles.project}`}>
             <div className={`${styles.projectDescription}`}>
-                <h3 className={`${styles.h3}`}>Jazz In Marciac</h3>
+                <h3>Jazz In Marciac</h3>
                 <p>
                     Jazz in Marciac est un projet fait en équipe avec un autre développeur, des designers et autres. 
                     On nous a demandé un site web servant de vitrine à nos créations concernant le festival. 

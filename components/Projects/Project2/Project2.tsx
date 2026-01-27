@@ -13,7 +13,7 @@ export default function Project2() {
                 className="w-5/8 h-auto object-cover rounded-xl"
             />
             <div className={`${styles.projectDescription}`}>
-                <h3 className={`${styles.h3}`}>Moi Mon Cerveau</h3>
+                <h3>Moi Mon Cerveau</h3>
                 <p>
                     Moi, mon cerveau, était un projet pour la Fondation pour la recherche du cerveau en équipe. 
                     Ils nous avaient chargés de créer un module de sensibilisation au cerveau, à son fonctionnement 

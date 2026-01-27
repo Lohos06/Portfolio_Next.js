@@ -1,12 +1,36 @@
 @import "tailwindcss";
 
 :root {
-  --white : rgb(228, 227, 227);
-  --black : rgb(52, 0, 0);
-  --orange : rgb(255, 94, 0);
+  --bg-main: #0f172a;      
+  --bg-card: #1e293b;      
+
+  --text-main: #f8fafc;    
+  --text-muted: #94a3b8;   
+
+  --accent-main: #f97316;  
+  --accent-hover: #fb923c;
 }
 
 body {
-  background-color: var(--white);
-  color: var(--black);
+  background-color: var(--bg-main);
+  color: var(--text-main);
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+h1{
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+  color: var(--accent-main);
+}
+
+h3 {
+  font-size: 1.5rem;
 }
