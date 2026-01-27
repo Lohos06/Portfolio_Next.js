@@ -44,3 +44,8 @@
 .submit:hover {
     background-color: rgb(255, 94, 0);
 }
+
+.submitMessage {
+    font-size: x-large;
+    color: rgb(0, 159, 0);
+}
