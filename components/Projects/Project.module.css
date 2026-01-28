@@ -1,0 +1,21 @@
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.projectDescription {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+@media (min-width: 768px) { 
+    .project {
+    flex-direction: row;
+    }
+    .projectDescription {
+    width: 25%;
+    }
+}

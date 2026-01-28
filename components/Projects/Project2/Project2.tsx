@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import MoiMonCerveau from "@/public/ProjectsAssets/MoiMonCerveau.png";
 
-import styles from "./Project2.module.css"
+import styles from "../Project.module.css"
 
 export default function Project2() {
     return (
@@ -20,7 +20,7 @@ export default function Project2() {
                     et aux maladies le concernant.
                     Nous avons donc développé un quiz sur les habitudes et leur impact sur le cerveau, 
                     donnant des conseils après chaque question.
-                    Nous avons aussi développé une carte du cerveau interactive afin d'apprendre à le connaitre 
+                    Nous avons aussi développé une carte du cerveau interactive afin d&apos;apprendre à le connaitre 
                     et un minijeu pour le travailler.
                 </p>
             </div>

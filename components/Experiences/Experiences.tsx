@@ -31,21 +31,21 @@ export default function Career() {
                         <div>
                             <p>03/25 - 05/25  | 3 mois</p>
                             <h3>Développeur Web | Jazz In Marciac</h3>
-                            <p>Création d'un site web de zéro.</p>
+                            <p>Création d&apos;un site web de zéro.</p>
                             <p>Adaptation a une charte graphique.</p>
                             <p>Coopération en équipe.</p>
                         </div>
                         <div>
                             <p>05/25 - 06/25 | 1 mois</p>
                             <h3>Développeur Web |Université CY Cergy Paris</h3>
-                            <p>Développement d'un formulaire de Césure.</p>
-                            <p>Gestion d'une base de donnée.</p>
+                            <p>Développement d&apos;un formulaire de Césure.</p>
+                            <p>Gestion d&apos;une base de donnée.</p>
                             <p>Interface Admin pour gestion des demandes de Césure.</p>
                         </div>
                         <div>
                             <p>08/25 - Maintenant</p>
-                            <h3>Développeur Web | Studio d'animation</h3>
-                            <p>Création d'un site vitrine.</p>
+                            <h3>Développeur Web | Studio d&apos;animation</h3>
+                            <p>Création d&apos;un site vitrine.</p>
                             <p>Maintenance et optimisation du site.</p>
                         </div>
                     </div>

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import JazzInMarciac from "@/public/ProjectsAssets/JazzInMarciac.png";
 
-import styles from "./Project1.module.css"
+import styles from "../Project.module.css"
 
 export default function Project1() {
     return (
@@ -12,8 +12,8 @@ export default function Project1() {
                 <p>
                     Jazz in Marciac est un projet fait en équipe avec un autre développeur, des designers et autres. 
                     On nous a demandé un site web servant de vitrine à nos créations concernant le festival. 
-                    Nos créations sont constituées d'un jeu vidéo, d'un court métrage, d'articles de presse, de merch, 
-                    avec bien sûr un site web contenant des assets faits pour l'occasion.
+                    Nos créations sont constituées d&apos;un jeu vidéo, d&apos;un court métrage, d&apos;articles de presse, de merch, 
+                    avec bien sûr un site web contenant des assets faits pour l&apos;occasion.
                 </p>
             </div>
             <Image

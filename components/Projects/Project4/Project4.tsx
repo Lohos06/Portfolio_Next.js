@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import LiamStudio from "@/public/ProjectsAssets/LiamStudio.png";
 
-import styles from "./Project4.module.css"
+import styles from "../Project.module.css"
 
 export default function Project4() {
     return (
@@ -15,9 +15,9 @@ export default function Project4() {
             <div className={`${styles.projectDescription}`}>
                 <h3>Liam Studio</h3>
                 <p>
-                    Liam Studio est un site web de presentation des courts metrage d'un jeune studio d'animation.
+                    Liam Studio est un site web de presentation des courts metrage d&apos;un jeune studio d&apos;animation.
                     Il y a une presentation de qui ils sont, les animations les plus populaires du studio tel que Before The Storm
-                    Ainsi qu'un formulaire pour contacter le studio.
+                    Ainsi qu&apos;un formulaire pour contacter le studio.
                 </p>
             </div>
         </div>
