@@ -1,0 +1,35 @@
+{
+    "Projects" : [
+        {
+            "Title" : "Jazz In Marciac",
+            "Summary" : "Jazz in Marciac est un projet fait en équipe avec un autre développeur, des designers et autres. On nous a demandé un site web servant de vitrine à nos créations concernant le festival. Nos créations sont constituées d'un jeu vidéo, d'un court métrage, d'articles de presse, de merch, avec bien sûr un site web contenant des assets faits pour l'occasion.",
+            "ImageLink" : "/ProjectsAssets/JazzInMarciac.png",
+            "ImageWidth" : 1901,
+            "ImageHeight" : 868
+        },
+
+        {
+            "Title" : "Moi Mon Cerveau",
+            "Summary" : "Moi Mon cerveau, était un projet pour la Fondation pour la recherche du cerveau en équipe. Ils nous avaient chargés de créer un module de sensibilisation au cerveau, à son fonctionnement et aux maladies le concernant. Nous avons donc développé un quiz sur les habitudes et leur impact sur le cerveau, donnant des conseils après chaque question. Nous avons aussi développé une carte du cerveau interactive afin d'apprendre à le connaitre et un minijeu pour le travailler.",
+            "ImageLink" : "/ProjectsAssets/MoiMonCerveau.png",
+            "ImageWidth" : 1900,
+            "ImageHeight" : 1079
+        },
+
+        {
+            "Title" : "Pokemon Trading Center",
+            "Summary" : "Pokemon Trading Center est un projet personnel avec pour fonction la collection et l'échange de cartes Pokemons. Ce site permet l'ouverture de boosters, la collection et l'échange de cartes Pokémon pour chacun de ses utilisateurs.",
+            "ImageLink" : "/ProjectsAssets/PokemonTradingCenter.png",
+            "ImageWidth" : 1919,
+            "ImageHeight" : 1079
+        },
+
+        {
+            "Title" : "Liam Studio",
+            "Summary" : "Liam Studio est un site web de presentation des courts metrage d'un jeune studio d'animation.Il y a une presentation de qui ils sont, les animations les plus populaires du studio tel que Before The StormAinsi qu'un formulaire pour contacter le studio.",
+            "ImageLink" : "/ProjectsAssets/LiamStudio.png",
+            "ImageWidth" : 1898,
+            "ImageHeight" : 1079
+        }
+    ]
+} 

@@ -1,6 +1,5 @@
 .project {
     display: flex;
-    flex-direction: column;
     justify-content: space-evenly;
 }
 
@@ -12,10 +11,13 @@
 }
 
 @media (min-width: 768px) { 
-    .project {
-    flex-direction: row;
-    }
     .projectDescription {
     width: 25%;
     }
+}
+
+@media (max-width: 768px) { 
+    .project {
+    flex-direction: column;
+}
 }
