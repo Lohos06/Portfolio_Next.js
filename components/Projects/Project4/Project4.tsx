@@ -10,7 +10,7 @@ export default function Project4() {
             <Image
                 src={LiamStudio}
                 alt="Image Site Liam Studio"
-                className="w-5/8 h-auto object-cover rounded-xl"
+                className="w-full h-auto object-cover rounded-xl md:w-5/8"
             />
             <div className={`${styles.projectDescription}`}>
                 <h3>Liam Studio</h3>

@@ -2,9 +2,10 @@
     min-height: 20vh;
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 3rem;
+    padding: 2rem;
 
     background: linear-gradient(
         to right,
@@ -20,11 +21,20 @@
 }
 
 .link {
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: var(--accent-main);
 }
 
 .link:hover {
-    font-size: 2rem;
     color: var(--accent-hover);
+}
+
+@media (min-width: 768px) { 
+    .header {
+        flex-direction: row;
+        padding: 3rem;
+    }
+    .link {
+        font-size: 2rem;
+    }
 }

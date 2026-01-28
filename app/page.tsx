@@ -9,8 +9,8 @@ export default function Home() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center">
       <Header></Header>
-      <main className="min-h-screen w-full flex flex-col items-center p-10 gap-10">
-          <div className="w-3/4 flex justify-between gap-6">
+      <main className="min-h-screen w-full flex flex-col items-center p-4 gap-10 md:p-10">
+          <div className="w-full flex flex-col justify-between gap-6 md:flex-row md:w-3/4">
             <div className="flex flex-col justify-between gap-6">
               <Skills></Skills>
               <Formations></Formations>

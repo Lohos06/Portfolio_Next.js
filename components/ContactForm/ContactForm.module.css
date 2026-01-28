@@ -1,16 +1,16 @@
 .form {
     display: flex;
     flex-direction: column;
-    padding: 3rem;
+    padding: 1rem;
+    width: 100vw;
     gap: 3rem;
-    width: 70vw;
 }
 
 .FieldSet {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .legend {
@@ -37,7 +37,7 @@
     padding: 1rem;
     border-radius: 1rem;
     align-self: center;
-    width: 25%;
+    width: 50%;
     transition: 0.3s;
 }
 
@@ -48,4 +48,19 @@
 .submitMessage {
     font-size: x-large;
     color: var(--accent-main);
+}
+
+
+
+@media (min-width: 768px) { 
+    .form {
+        width: 70vw;
+        padding: 3rem;
+    }
+    .FieldSet {
+        padding: 2rem;
+    }
+    .submit {
+        width: 25%;
+    }
 }

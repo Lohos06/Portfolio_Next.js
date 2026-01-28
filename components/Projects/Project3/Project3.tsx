@@ -19,7 +19,7 @@ export default function Project3() {
             <Image
                 src={PokemonTradingCenter}
                 alt="Image Site Pokemon Trading Center"
-                className="w-5/8 h-auto object-cover rounded-xl"
+                className="w-full h-auto object-cover rounded-xl md:w-5/8"
             />
         </div>
     )

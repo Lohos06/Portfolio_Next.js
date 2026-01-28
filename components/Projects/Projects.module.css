@@ -3,5 +3,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10rem;
+    gap: 5rem;
+}
+
+@media (min-width: 768px) { 
+    .Projects {
+        gap: 10rem;
+    }
 }

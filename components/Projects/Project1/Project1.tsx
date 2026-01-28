@@ -19,7 +19,7 @@ export default function Project1() {
             <Image
                 src={JazzInMarciac}
                 alt="Image Site Jazz In Marciac"
-                className="w-5/8 h-auto object-cover rounded-xl"
+                className="w-full h-auto object-cover rounded-xl md:w-5/8"
             />
         </div>
     )

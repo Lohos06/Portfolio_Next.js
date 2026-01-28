@@ -10,7 +10,7 @@ export default function Project2() {
             <Image
                 src={MoiMonCerveau}
                 alt="Image Site Moi Mon Cerveau"
-                className="w-5/8 h-auto object-cover rounded-xl"
+                className="w-full h-auto object-cover rounded-xl md:w-5/8"
             />
             <div className={`${styles.projectDescription}`}>
                 <h3>Moi Mon Cerveau</h3>
