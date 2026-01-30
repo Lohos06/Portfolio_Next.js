@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
 .header {
     min-height: 20vh;
     width: 100%;
@@ -23,6 +25,7 @@
 .link {
     font-size: 1.7rem;
     color: var(--accent-main);
+    font-family: "MedievalSharp", cursive;
 }
 
 .link:hover {

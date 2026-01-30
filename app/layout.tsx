@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { roboto400, roboto700 } from "@/fonts/fonts";
 
 export const metadata: Metadata = {
   title: "Portfolio Lorenzo L'Hostis",
@@ -14,9 +13,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${roboto400.variable} ${roboto700.variable}`}
-      >
+      <body>
         {children}
       </body>
     </html>
