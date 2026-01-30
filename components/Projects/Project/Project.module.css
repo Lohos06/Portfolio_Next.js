@@ -10,6 +10,15 @@
     gap: 2rem;
 }
 
+.link {
+    width: fit-content;
+    text-decoration: underline;
+}
+
+.link:hover {
+    color: var(--accent-hover);
+}
+
 @media (min-width: 768px) { 
     .projectDescription {
     width: 25%;
